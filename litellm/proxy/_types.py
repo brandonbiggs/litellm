@@ -3707,7 +3707,7 @@ class UserManagementEndpointParamDocStringEnums(str, enum.Enum):
     send_invite_email_doc_str = (
         "Optional[bool] - Specify if an invite email should be sent."
     )
-    user_role_doc_str = """Optional[str] - Specify a user role - "proxy_admin", "proxy_admin_viewer", "internal_user", "internal_user_viewer", "team", "customer". Info about each role here: `https://github.com/BerriAI/litellm/litellm/proxy/_types.py#L20`"""
+    user_role_doc_str = """Optional[str] - Specify a user role - "proxy_admin", "proxy_admin_viewer", "internal_user", "internal_user_viewer", "team", "customer". Info about each role here: `https://github.com/BerriAI/litellm/blob/main/litellm/proxy/_types.py#L95`"""
     max_budget_doc_str = """Optional[float] - Specify max budget for a given user."""
     budget_duration_doc_str = """Optional[str] - Budget is reset at the end of specified duration. If not set, budget is never reset. You can set duration as seconds ("30s"), minutes ("30m"), hours ("30h"), days ("30d"), months ("1mo")."""
     models_doc_str = """Optional[list] - Model_name's a user is allowed to call. (if empty, key is allowed to call all models)"""
